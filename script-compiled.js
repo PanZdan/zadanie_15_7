@@ -107,29 +107,29 @@ var Stopwatch = function (_React$Component) {
         null,
         React.createElement(
           "nav",
-          { "class": "controls" },
+          { className: "controls" },
           React.createElement(
             "button",
-            { "class": "button", onClick: this.start.bind(this) },
+            { className: "button", onClick: this.start.bind(this) },
             "Start"
           ),
           React.createElement(
             "button",
-            { "class": "button", onClick: this.stop.bind(this) },
+            { className: "button", onClick: this.stop.bind(this) },
             "Stop"
           ),
           React.createElement(
             "button",
-            { "class": "button", onClick: this.reset.bind(this) },
+            { className: "button", onClick: this.reset.bind(this) },
             "Reset"
           )
         ),
         React.createElement(
           "div",
-          { "class": "stopwatch" },
+          { className: "stopwatch" },
           this.getFormattedTime()
         ),
-        React.createElement("ul", { "class": "result" })
+        React.createElement("ul", { className: "result" })
       );
     }
   }]);
