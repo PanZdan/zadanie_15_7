@@ -74,13 +74,13 @@ class Stopwatch extends React.Component {
   render() {
     return (
       <div>
-        <nav class="controls">
-          <button class="button" onClick={this.start.bind(this)}>Start</button>
-          <button class="button" onClick={this.stop.bind(this)}>Stop</button>
-          <button class="button" onClick={this.reset.bind(this)}>Reset</button>
+        <nav className="controls">
+          <button className="button" onClick={this.start.bind(this)}>Start</button>
+          <button className="button" onClick={this.stop.bind(this)}>Stop</button>
+          <button className="button" onClick={this.reset.bind(this)}>Reset</button>
         </nav>
-        <div class="stopwatch">{this.getFormattedTime()}</div>
-        <ul class="result"></ul>
+        <div className="stopwatch">{this.getFormattedTime()}</div>
+        <ul className="result"></ul>
       </div>
     );
   }
