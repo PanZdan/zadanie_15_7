@@ -1,0 +1,26 @@
+body {
+  margin: 50px auto;
+  text-align: center;
+  background-color: #3a1631;
+  color: #fff;
+  font-size: 60px;
+  button {
+    text-decoration: none;
+    color: red;
+    background-color: #3a1631;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    transition: 0.4s;
+    border: 2px solid #fff;
+    width: 150px;
+    &:hover {
+      background-color: #3a1631;
+      color: #fff;
+      border: 2px solid red;
+    }
+  }
+  .stopwatch {
+    margin-top: 30px;
+  }
+}
